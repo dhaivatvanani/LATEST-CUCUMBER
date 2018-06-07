@@ -38,9 +38,9 @@ public class CalculatorSteps {
         calculator.multiply(arg1, arg2);
     }
     
-    @When("^I Divide (\\d+) from (\\d+)$")
+    @When("^I Divide (\\d+) with (\\d+)$")
     public void i_division_and(int arg1, int arg2) throws Throwable {
-        calculator.division(arg2, arg1);
+        calculator.division(arg1, arg2);
     }
 
     @Then("^the result should be (\\d+)$")
