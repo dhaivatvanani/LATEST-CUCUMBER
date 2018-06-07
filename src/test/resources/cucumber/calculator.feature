@@ -3,7 +3,6 @@ Feature: Calculator
   I want to use a calculator
   So that I don't need to calculate myself
 
-    @testEntityKey=P2-TC-1
     Scenario: Add two numbers
     Given I have a calculator
     When I add 4 and 7
