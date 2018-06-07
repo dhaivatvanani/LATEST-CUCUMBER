@@ -11,12 +11,12 @@ Feature: Calculator
     Scenario: Substract two numbers
     Given I have a calculator
     When I Substract 7 from 2
-    Then the result should be 5
+    Then the result should be 51
     
     Scenario: Multiple Two Numbers
     Given I have a calculator
     When I Multiply 9 with 9
-    Then the result should be 81
+    Then the result should be 80
     
     Scenario: Division 
     Given I have a calculator
