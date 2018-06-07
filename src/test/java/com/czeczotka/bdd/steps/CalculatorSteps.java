@@ -40,7 +40,7 @@ public class CalculatorSteps {
     
     @When("^I Divide (\\d+) from (\\d+)$")
     public void i_division_and(int arg1, int arg2) throws Throwable {
-        calculator.division(arg1, arg2);
+        calculator.division(arg2, arg1);
     }
 
     @Then("^the result should be (\\d+)$")
