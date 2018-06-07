@@ -19,11 +19,6 @@ Feature: Calculator
     When I Multiply 9 with 9
     Then the result should be 81
     
-    Scenario: Multiple Two Numbers
-    Given I have a calculator
-    When I Multiply 9 with 9
-    Then the result should be 80
-    
     Scenario: Division 
     Given I have a calculator
     When I Divide 4 from 8
