@@ -6,8 +6,8 @@ Feature: Calculator
     @testEntityKey=P1-TC-1
     Scenario: Add two numbers
     Given I have a calculator
-    When I add 3 and 6
-    Then the result should be 9
+    When I add 4 and 6
+    Then the result should be 10
     
     Scenario: Substract two numbers
     Given I have a calculator
@@ -18,6 +18,11 @@ Feature: Calculator
     Given I have a calculator
     When I Multiply 9 with 9
     Then the result should be 81
+    
+    Scenario: Multiple Two Numbers
+    Given I have a calculator
+    When I Multiply 9 with 9
+    Then the result should be 80
     
     Scenario: Division 
     Given I have a calculator
