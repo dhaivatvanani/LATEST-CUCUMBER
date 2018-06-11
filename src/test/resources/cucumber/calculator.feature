@@ -6,7 +6,7 @@ Feature: Calculator
     Scenario: Add two numbers
     Given I have a calculator
     When I add 4 and 7
-    Then the result should be 11
+    Then the result should be 111
     
     Scenario: Substract two numbers
     Given I have a calculator
