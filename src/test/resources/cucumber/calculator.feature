@@ -2,12 +2,12 @@ Feature: Calculator
   As a user
   I want to use a calculator
   So that I don't need to calculate myself
+  Test Email Notification
 
-    @testEntityKey=P4-TC-15
     Scenario: Add two numbers
     Given I have a calculator
     When I add 4 and 7
-    Then the result should be 111
+    Then the result should be 11
     
     Scenario: Substract two numbers
     Given I have a calculator
@@ -22,4 +22,4 @@ Feature: Calculator
     Scenario: Division 
     Given I have a calculator
     When I Divide 10 with 2
-    Then the result should be 51
+    Then the result should be 5
