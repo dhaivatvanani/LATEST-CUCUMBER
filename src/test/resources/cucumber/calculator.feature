@@ -36,7 +36,7 @@ Feature: Calculator
     | 4 | 1 | 4 |
     | -1 | 2 | -2 |
     
-    @requirementKey=OPQ-RQ-160
+    @requirementKey=OPQ-RQ-169
     Scenario Outline: Division
     Given I have a calculator
     When I Divide <num1> by <num2>
