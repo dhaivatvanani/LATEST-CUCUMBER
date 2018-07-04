@@ -3,7 +3,7 @@ Feature: Calculator
   I want to use a calculator
   So that I don't need to calculate myself
 
-    @requirementKey=8A-RQ-1
+    @requirementKey=OPQ-RQ-176
     Scenario Outline: Addition of integer numbers
     Given I have a calculator
     When I add <num1> and <num2>
@@ -14,7 +14,7 @@ Feature: Calculator
     | 4 | 1 | 5 |
     | -1 | -2 | -3 |
 
-    @requirementKey=8A-RQ-1
+    @requirementKey=8A-RQ-1OPQ-RQ-176OPQ-RQ-176
     Scenario Outline: Substraction of integer numbers
     Given I have a calculator
     When I Substract <num1> from <num2>
@@ -25,7 +25,7 @@ Feature: Calculator
     | 4 | 1 | -3 |
     | -1 | 2 | 1 |
     
-    @requirementKey=8A-RQ-1
+    @requirementKey=OPQ-RQ-176
     Scenario Outline: Multiplication of integer numbers
     Given I have a calculator
     When I Multiply <num1> with <num2>
@@ -36,7 +36,7 @@ Feature: Calculator
     | 4 | 1 | 4 |
     | -1 | 2 | -2 |
     
-    @requirementKey=8A-RQ-1
+    @requirementKey=OPQ-RQ-176
     Scenario Outline: Division of integer numbers
     Given I have a calculator
     When I Divide <num1> by <num2>
