@@ -14,7 +14,7 @@ Feature: Calculator
     | 4 | 1 | 5 |
     | -1 | -2 | -3 |
 
-    @requirementKey=OPQ-RQ-160
+    @requirementKey=OPQ-RQ-169
     Scenario Outline: Substract 2
     Given I have a calculator
     When I Substract <num1> from <num2>
@@ -25,7 +25,7 @@ Feature: Calculator
     | 4 | 1 | -3 |
     | -1 | 2 | 1 |
     
-    @requirementKey=OPQ-RQ-161 
+    @requirementKey=OPQ-RQ-169 
     Scenario Outline: Multiple 3
     Given I have a calculator
     When I Multiply <num1> with <num2>
@@ -36,7 +36,7 @@ Feature: Calculator
     | 4 | 1 | 4 |
     | -1 | 2 | -2 |
     
-    @requirementKey=OPQ-RQ-162 
+    @requirementKey=OPQ-RQ-169 
     Scenario Outline: Divide 4
     Given I have a calculator
     When I Divide <num1> by <num2>
