@@ -3,8 +3,8 @@ Feature: Calculator
   I want to use a calculator
   So that I don't need to calculate myself
 
-    @requirementKey=OPQ-RQ-168
-    Scenario Outline: Addition of integer numbers
+    @requirementKey=OPQ-RQ-172
+    Scenario Outline: Add num
     Given I have a calculator
     When I add <num1> and <num2>
     Then the result should be <total>
@@ -14,8 +14,8 @@ Feature: Calculator
     | 4 | 1 | 5 |
     | -1 | -2 | -3 |
 
-    @requirementKey=OPQ-RQ-OPQ-RQ-168
-    Scenario Outline: Substraction of integer numbers
+    @requirementKey=OPQ-RQ-172
+    Scenario Outline: Substract num
     Given I have a calculator
     When I Substract <num1> from <num2>
     Then the result should be <result>
@@ -25,8 +25,8 @@ Feature: Calculator
     | 4 | 1 | -3 |
     | -1 | 2 | 1 |
     
-    @requirementKey=OPQ-RQ-168
-    Scenario Outline: Multiplication of integer numbers
+    @requirementKey=OPQ-RQ-172
+    Scenario Outline: Multiply num
     Given I have a calculator
     When I Multiply <num1> with <num2>
     Then the result should be <result>
@@ -36,8 +36,8 @@ Feature: Calculator
     | 4 | 1 | 4 |
     | -1 | 2 | -2 |
     
-    @requirementKey=OPQ-RQ-168
-    Scenario Outline: Division of integer numbers
+    @requirementKey=OPQ-RQ-172
+    Scenario Outline: Division num
     Given I have a calculator
     When I Divide <num1> by <num2>
     Then the result should be <result>
