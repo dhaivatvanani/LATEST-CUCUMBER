@@ -3,7 +3,7 @@ Feature: Calculator
   I want to use a calculator
   So that I don't need to calculate myself
 
-    @requirementKey=OPQ-RQ-166 
+    @requirementKey=OPQ-RQ-158
     Scenario Outline: Add
     Given I have a calculator
     When I add <num1> and <num2>
@@ -14,7 +14,7 @@ Feature: Calculator
     | 4 | 1 | 5 |
     | -1 | -2 | -3 |
 
-    @requirementKey=OPQ-RQ-169
+    @requirementKey=OPQ-RQ-160
     Scenario Outline: Substract
     Given I have a calculator
     When I Substract <num1> from <num2>
@@ -25,7 +25,7 @@ Feature: Calculator
     | 4 | 1 | -3 |
     | -1 | 2 | 1 |
     
-    @requirementKey=OPQ-RQ-169 
+    @requirementKey=OPQ-RQ-161 
     Scenario Outline: Multiple
     Given I have a calculator
     When I Multiply <num1> with <num2>
@@ -36,7 +36,7 @@ Feature: Calculator
     | 4 | 1 | 4 |
     | -1 | 2 | -2 |
     
-    @requirementKey=OPQ-RQ-169 
+    @requirementKey=OPQ-RQ-162 
     Scenario Outline: Divide
     Given I have a calculator
     When I Divide <num1> by <num2>
