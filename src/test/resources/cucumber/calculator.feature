@@ -14,7 +14,7 @@ Feature: Calculator
     | 4 | 1 | 5 |
     | -1 | -2 | -3 |
 
-    @requirementKey=OPQ-RQ-176OPQ-RQ-176
+    @requirementKey=OPQ-RQ-176
     Scenario Outline: Substraction of integer numbers 2
     Given I have a calculator
     When I Substract <num1> from <num2>
