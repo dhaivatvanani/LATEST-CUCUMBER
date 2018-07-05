@@ -4,7 +4,7 @@ Feature: Calculator
   So that I don't need to calculate myself
 
     @requirementKey=OPQ-RQ-176
-    Scenario Outline: Addition of integer numbers 2
+    Scenario Outline: SUM
     Given I have a calculator
     When I add <num1> and <num2>
     Then the result should be <total>
@@ -14,8 +14,8 @@ Feature: Calculator
     | 4 | 1 | 5 |
     | -1 | -2 | -3 |
 
-    @requirementKey=OPQ-RQ-176
-    Scenario Outline: Substraction of integer numbers 2
+    @requirementKey=OPQ-RQ-176OPQ-RQ-176
+    Scenario Outline: minus
     Given I have a calculator
     When I Substract <num1> from <num2>
     Then the result should be <result>
@@ -26,7 +26,7 @@ Feature: Calculator
     | -1 | 2 | 1 |
     
     @requirementKey=OPQ-RQ-176
-    Scenario Outline: Multiplication of integer numbers 2
+    Scenario Outline: Multiply
     Given I have a calculator
     When I Multiply <num1> with <num2>
     Then the result should be <result>
@@ -37,7 +37,7 @@ Feature: Calculator
     | -1 | 2 | -2 |
     
     @requirementKey=OPQ-RQ-176
-    Scenario Outline: Division of integer numbers 2
+    Scenario Outline: Divide
     Given I have a calculator
     When I Divide <num1> by <num2>
     Then the result should be <result>
