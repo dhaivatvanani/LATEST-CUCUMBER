@@ -3,7 +3,7 @@ Feature: Calculator
   I want to use a calculator
   So that I don't need to calculate myself
 
-    @requirementKey=MJ-RQ-13
+    @requirementKey= DPV-RQ-3
     Scenario Outline: SUMMATION
     Given I have a calculator
     When I add <num1> and <num2>
@@ -14,7 +14,7 @@ Feature: Calculator
     | 4 | 1 | 5 |
     | -1 | -2 | -3 |
 
-    @requirementKey=MJ-RQ-13
+    @requirementKey= DPV-RQ-3
     Scenario Outline: less
     Given I have a calculator
     When I Substract <num1> from <num2>
@@ -25,7 +25,7 @@ Feature: Calculator
     | 4 | 1 | -3 |
     | -1 | 2 | 1 |
     
-    @requirementKey=MJ-RQ-13
+    @requirementKey= DPV-RQ-3
     Scenario Outline: accumulate
     Given I have a calculator
     When I Multiply <num1> with <num2>
@@ -36,7 +36,7 @@ Feature: Calculator
     | 4 | 1 | 4 |
     | -1 | 2 | -2 |
     
-    @requirementKey=MJ-RQ-13
+    @requirementKey= DPV-RQ-3
     Scenario Outline: Split
     Given I have a calculator
     When I Divide <num1> by <num2>
