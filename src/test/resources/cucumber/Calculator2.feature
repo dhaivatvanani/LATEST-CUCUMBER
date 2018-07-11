@@ -17,7 +17,7 @@ Feature: Calculator2
     Then the result should be 6
     
     @requirementKey=DRR-RQ-11
-    Scenario Outline: SUMMATION num1 and num2
+    Scenario Outline: Add two numbers num1 and num2
     Given I have a calculator
     When I add <num1> and <num2>
     Then the result should be <total>
