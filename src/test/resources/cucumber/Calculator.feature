@@ -13,13 +13,3 @@ Feature: Calculator
     Given I have a calculator
     When I Substract 7 from 2
     Then the result should be 5
-    
-    Scenario: Multiple Two Numbers
-    Given I have a calculator
-    When I Multiply 9 with 9
-    Then the result should be 81
-    
-    Scenario: Division 
-    Given I have a calculator
-    When I Divide 10 with 2
-Then the result should be 5
