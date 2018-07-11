@@ -15,3 +15,16 @@ Feature: Calculator2
     Given I have a calculator
     When I Substract 7 from 2
     Then the result should be 5
+    
+    @requirementKey=DPV-IS-1
+    Scenario Outline: SUMMATION
+    Given I have a calculator
+    When I add <num1> and <num2>
+    Then the result should be <total>
+    Examples: 
+    | num1 | num2 | total |
+    | 1 | 2 | 3 |
+    | 4 | 1 | 5 |
+    | -1 | -2 | -3 |
+    
+    
