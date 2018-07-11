@@ -17,7 +17,7 @@ Feature: Calculator2
     Then the result should be 5
     
     @requirementKey=DPV-IS-1
-    Scenario Outline: SUMMATION
+    Scenario Outline: SUMMATION num1 and num2
     Given I have a calculator
     When I add <num1> and <num2>
     Then the result should be <total>
