@@ -25,6 +25,6 @@ Feature: Calculator2
     | num1 | num2 | total |
     | 1 | 2 | 3 |
     | 4 | 1 | 5 |
-
+    | 15 | 30 | 12 |
     
     
