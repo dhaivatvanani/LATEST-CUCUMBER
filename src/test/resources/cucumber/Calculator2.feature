@@ -27,7 +27,7 @@ Feature: Calculator2
     | 4 | 1 | 5 |
     | 15 | 30 | 12 |
     
-    @requirementKey= DPV-RQ-4
+    @requirementKey=DPV-RQ-4
     Scenario Outline: less
     Given I have a calculator
     When I Substract <num1> from <num2>
