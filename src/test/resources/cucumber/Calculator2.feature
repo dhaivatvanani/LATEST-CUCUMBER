@@ -16,7 +16,7 @@ Feature: Calculator2
     When I Substract 7 from 2
     Then the result should be 5
     
-    @requirementKey=DPV-IS-1
+    @requirementKey=DRR-RQ-11
     Scenario Outline: SUMMATION num1 and num2
     Given I have a calculator
     When I add <num1> and <num2>
