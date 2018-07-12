@@ -5,19 +5,19 @@ Feature: Calculator2
   Test Email Notification
 
     @requirementKey=DJ1-RQ-2
-    Scenario: Add two numbers 4 & 7
+    Scenario: Add two Nos.  New
     Given I have a calculator
     When I add [@Param 1] and [@Param 2]
     Then the result should be 20
     
     @requirementKey=DRR-RQ-11
-    Scenario: Substract
+    Scenario: Substract New
     Given I have a calculator
     When I Substract [@1] from [@3]
     Then the result should be 6
     
     @requirementKey=DJ1-RQ-2
-    Scenario: Multiple Two Numbers
+    Scenario: Multiply Two Numbers New
     Given I have a calculator
     When I Multiply [@1] with [@2]
     Then the result should be 81
