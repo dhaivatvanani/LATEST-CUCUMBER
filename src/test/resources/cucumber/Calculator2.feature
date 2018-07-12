@@ -13,7 +13,7 @@ Feature: Calculator2
     @requirementKey=DRR-RQ-11
     Scenario: Substract
     Given I have a calculator
-    When I Substract [@Param 1] from [@Param 2]
+    When I Substract [@1] from [@2]
     Then the result should be 6
     
     @requirementKey=DJ1-RQ-2
