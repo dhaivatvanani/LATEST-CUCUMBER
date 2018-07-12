@@ -4,16 +4,21 @@ Feature: Calculator2
   So that I don't need to calculate myself
   Test Email Notification
 
-    @requirementKey=DPV-RQ-2
+    @requirementKey=DJ1-RQ-2
     Scenario: Add two numbers 4 & 7
     Given I have a calculator
-    When I add 4 and 7
+    When I add [@Param 1] and [@Param 2]
     Then the result should be 20
     
     @requirementKey=DRR-RQ-11
-    Scenario: Substract two numbers 7 from 2
+    Scenario: Substract
     Given I have a calculator
-    When I Substract 7 from 2
+    When I Substract [@Param 1] from [@Param 2]
     Then the result should be 6
     
+    @requirementKey=DJ1-RQ-2
+    Scenario: Multiple Two Numbers
+    Given I have a calculator
+    When I Multiply [@1] with [@2]
+    Then the result should be 81
     
