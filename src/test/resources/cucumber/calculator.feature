@@ -3,45 +3,26 @@ Feature: Calculator
   I want to use a calculator
   So that I don't need to calculate myself
 
-    @requirementKey= DPV-RQ-3
-    Scenario Outline: SUMMATION
+    @requirementKey=N1-RQ-3
+    Scenario: Add two numbers
     Given I have a calculator
-    When I add <num1> and <num2>
-    Then the result should be <total>
-    Examples: 
-    | num1 | num2 | total |
-    | 1 | 2 | 3 |
-    | 4 | 1 | 5 |
-    | -1 | -2 | -3 |
-
-    @requirementKey= DPV-RQ-3
-    Scenario Outline: less
-    Given I have a calculator
-    When I Substract <num1> from <num2>
-    Then the result should be <result>
-    Examples: 
-    | num1 | num2 | result |
-    | 3 | 6 | 3 |
-    | 4 | 1 | -3 |
-    | -1 | 2 | 1 |
+    When I add 4 and 7
+    Then the result should be 11
     
-    @requirementKey= DPV-RQ-3
-    Scenario Outline: accumulate
+    @requirementKey=N1-RQ-3
+    Scenario: Substract two numbers
     Given I have a calculator
-    When I Multiply <num1> with <num2>
-    Then the result should be <result>
-    Examples: 
-    | num1 | num2 | result |
-    | 3 | 6 | 18 |
-    | 4 | 1 | 4 |
-    | -1 | 2 | -2 |
+    When I Substract 7 from 2
+    Then the result should be 5
     
-    @requirementKey= DPV-RQ-3
-    Scenario Outline: Split
+    @requirementKey=N1-RQ-3
+    Scenario: Multiple Two Numbers
     Given I have a calculator
-    When I Divide <num1> by <num2>
-    Then the result should be <result>
-    Examples: 
-    | num1 | num2 | result |
-    | 15 | 3 | 5 |
-    | -4 | 2 | -2 |
+    When I Multiply 9 with 9
+    Then the result should be 81
+    
+    @requirementKey=N1-RQ-3
+    Scenario: Division 
+    Given I have a calculator
+    When I Divide 10 with 2
+    Then the result should be 5
