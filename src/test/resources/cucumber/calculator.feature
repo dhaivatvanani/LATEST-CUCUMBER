@@ -3,25 +3,21 @@ Feature: Calculator
   I want to use a calculator
   So that I don't need to calculate myself
 
-    @requirementKey=N1-RQ-3
     Scenario: Add two numbers
     Given I have a calculator
     When I add 4 and 7
     Then the result should be 11
     
-    @requirementKey=N1-RQ-3
     Scenario: Substract two numbers
     Given I have a calculator
     When I Substract 7 from 2
     Then the result should be 5
     
-    @requirementKey=N1-RQ-3
     Scenario: Multiple Two Numbers
     Given I have a calculator
     When I Multiply 9 with 9
     Then the result should be 81
     
-    @requirementKey=N1-RQ-3
     Scenario: Division 
     Given I have a calculator
     When I Divide 10 with 2
