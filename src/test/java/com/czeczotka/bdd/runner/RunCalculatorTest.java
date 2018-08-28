@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
 		  features = "classpath:cucumber/LinkR.feature" ,
 		  glue = "com.czeczotka.bdd.steps",
-		plugin = {"json:target/Cucumber1.json"},
+		plugin = {"json:target/Cucumber.json"},
 		monochrome = true
        
 )
