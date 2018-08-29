@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		  features = "classpath:cucumber/LinkR.feature" ,
+		  features = "classpath:cucumber/29082018.feature" ,
 		  glue = "com.czeczotka.bdd.steps",
 		plugin = {"json:target/Cucumber.json"},
 		monochrome = true
