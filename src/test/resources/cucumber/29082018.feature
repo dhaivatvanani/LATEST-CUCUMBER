@@ -4,25 +4,25 @@ Feature: Calculator
   So that I don't need to calculate myself
 
  
-  Scenario: Add two numbers
+  Scenario: New-Add two numbers
     Given I have a calculator
     When I add 21 and 31
     Then the result should be 52
 	
     
-    Scenario: Add two numbers 2
+    Scenario: New-Add two numbers 2
     Given I and u have a calculator
     When I add 41 and 31
     Then the result should be 72
 	
     
-    Scenario: Add two numbers 3
+    Scenario: New-Add two numbers 3
     Given I have a calculator
     When I add 11 and 31
     Then the result should be 42
 	
     
-    Scenario: Add two numbers 5
+    Scenario: New-Add two numbers 5
     Given I have a calculator
     When I add 21 and 11
     Then the result should be 32
