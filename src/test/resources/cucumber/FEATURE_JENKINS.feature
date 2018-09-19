@@ -3,19 +3,19 @@ Feature: Calculator
   I want to use a calculator
   So that I don't need to calculate myself
 
-	@requirementKey=IO1-RQ-11
+	@requirementKey=AIP-RQ-1
     Scenario: Add two numbers
     Given I have a calculator 
     When I add 20 and 3
     Then the result should be 23
     
-	@requirementKey=IO1-RQ-11
+	@requirementKey=IAP-RQ-462
 	Scenario: Add two numbers 2
     Given I and u have a calculator
     When I add 40 and 30
     Then the result should be 70
     
-	@requirementKey=IO1-RQ-11
+	@requirementKey=INT-RQ-137
 	Scenario: Add two numbers 3
     Given I have a calculator
     When I add 10 and 31
