@@ -9,19 +9,19 @@ Feature: Calculator
     When I add 20 and 3
     Then the result should be 23
     
-	@requirementKey=IO1-RQ-10
+	@requirementKey=IO1-RQ-11
 	Scenario: Add two numbers 2
     Given I and u have a calculator
     When I add 40 and 30
     Then the result should be 70
     
-	@requirementKey=IO1-RQ-9
+	@requirementKey=IO1-RQ-11
 	Scenario: Add two numbers 3
     Given I have a calculator
     When I add 10 and 31
     Then the result should be 41
     
-    @requirementKey=IO1-RQ-8
+    @requirementKey=IO1-RQ-11
 	Scenario: Add two numbers 5
     Given I have a calculator
     When I add 33 and 15
