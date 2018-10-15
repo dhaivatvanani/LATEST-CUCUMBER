@@ -3,26 +3,24 @@ Feature: Calculator
   I want to use a calculator
   So that I don't need to calculate myself
 
-	@requirementKey=ONZ-RQ-9
+	
     Scenario: Add postive numbers
     Given I have a calculator 
     When I add 20 and 3
     Then the result should be 23
     
-	@requirementKey=ONZ-RQ-9
+
 	Scenario: Add negative numbers 
     Given I and u have a calculator
     When I add 40 and 30
     Then the result should be 70
     
-	@requirementKey=ONZ-RQ-9
 	Scenario: Add numeric value
     Given I have a calculator
     When I add 10 and 31
     Then the result should be 41
     
-    @requirementKey=ONZ-RQ-9
-	Scenario: Add values
+    	Scenario: Add values
     Given I have a calculator
     When I add 33 and 15
     Then the result should be 48
