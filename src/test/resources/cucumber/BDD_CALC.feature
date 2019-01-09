@@ -13,7 +13,7 @@ Feature: Calculator
      Scenario: Add two numbers 2
     Given I and u have a calculator
     When I add 10 and 50
-    Then the result should be 60
+    Then the result should be 64
     
      @requirementKey=JQ-RQ-1
     Scenario: Add two numbers 3
