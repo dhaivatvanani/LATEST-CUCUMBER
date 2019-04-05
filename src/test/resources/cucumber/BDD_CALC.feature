@@ -3,7 +3,7 @@ Feature: Calculator
   I want to use a calculator
   So that I don't need to calculate myself
 
-    @requirementKey= SWQ-RQ-1
+    @requirementKey=SWQ-RQ-1
     Scenario: Add two numbers
     Given I have a calculator 
     When I add 11 and 33
