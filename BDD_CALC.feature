@@ -15,7 +15,7 @@ Feature: Calculator
     When I add 10 and 50
     Then the result should be 64
     
-     @requirementKey=PBF-RQ-1330
+     @testEntityKey=LAR-TC-5791
     Scenario: Add two numbers 3
     Given I have a calculator
     When I add 20 and 30
