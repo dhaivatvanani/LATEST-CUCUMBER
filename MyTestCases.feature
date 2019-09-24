@@ -9,13 +9,14 @@ Feature: Calculator
     When I add 4 and 7
     Then the result should be 11
     
-	@testEntityKey=PPN-TC-40
+	@requirementKey=PPN-RQ-2
     Scenario: Index 2: File is passed from Project itself
     Given I have a calculator
     When I Substract 7 from 2
     Then the result should be 5
     
-	@testEntityKey=PPN-TC-40
+	@testEntityKey=PPN-TC-43
+	@requirementKey=PPN-RQ-2
     Scenario: Index 3: File is passed from Project itself
     Given I have a calculator
     When I Multiply 9 with 9
