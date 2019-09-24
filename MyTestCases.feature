@@ -15,7 +15,7 @@ Feature: Calculator
     When I Substract 7 from 2
     Then the result should be 5
     
-	@requirementKey=PPN-RQ-1
+	@testEntityKey=PPN-TC-33
     Scenario: Index 3: File is passed from Project itself
     Given I have a calculator
     When I Multiply 9 with 9
